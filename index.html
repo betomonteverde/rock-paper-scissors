@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, papel o tijera</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Piedra, Papel o Tijera</h1>
+    </header>
+
+    <div class="container" id="container">
+        <!-- seccion de resultados -->
+        <section class="result" id="result">
+            <!-- imagen de jugador -->
+            <img id="player-img" src="./assets/img/rock.svg" alt="player">
+            <!-- texto de seleccion -->
+            <div class="select-text" id="select-text">
+                Elige una opción
+            </div>
+            <!-- imagen pc -->
+            <img id="pc-img" src="./assets/img/rock.svg" alt="pc">
+        </section>
+        <!-- Botones -->
+        <section id="btn-group" class="btn-group">
+            <button id="rock" class="btn-rock" type="button">
+                <img src="./assets/img/rock.svg" alt="">
+            </button>
+            <button id="paper" class="btn-paper" type="button">
+                <img src="./assets/img/paper.svg" alt="">
+            </button>
+            <button id="scissor" class="btn-scissor" type="button">
+                <img src="./assets/img/scissor.svg" alt="">
+            </button>
+        </section>
+        <!-- Footer -->
+        <footer id="footer" class="footer">
+            <p>Creado por MonteverdeCode</p>
+        </footer>
+    </div>
+    
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
